@@ -1,4 +1,4 @@
-import { connect } from "react-redux";
+// import { connect } from "react-redux";
 import superagent from "superagent";
 
 export const getAllPeople = url => dispatch => {
