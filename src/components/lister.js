@@ -6,7 +6,9 @@ class Lister extends React.Component {
     return (
       <ul>
         {this.props.people.map((result, i) => (
-          <li onClick={() => this.props.handleFetchOne(result.url)} key={i}>
+          // console.log(result)
+          // <li onClick={() => this.props.handleFetchOne(result.url)} key={i}>
+          <li onClick={() => this.props.handleFetchOne(result)} key={i}>
             {result.name}
           </li>
         ))}

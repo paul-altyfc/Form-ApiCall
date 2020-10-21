@@ -21,7 +21,7 @@ class App extends React.Component {
 
   async fetchPeople(e) {
     e.preventDefault();
-    let url = "https://swapi.co/api/people/";
+    let url = "https://www.chinmayamission.com/wp-json/gcmw/v1/centres";
     this.props.handleGetAll(url);
   }
 
