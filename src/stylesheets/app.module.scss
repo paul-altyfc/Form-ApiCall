@@ -15,7 +15,7 @@
       span:nth-child(1) {
         font-weight: bold;
         margin-right: 1em;
-        font-family: "Major Mono Display", monospace;
+        // font-family: "Sans-serif";
       }
       span:nth-child(2) {
         flex: 1;
@@ -34,7 +34,7 @@
       margin: 0.25em 0;
       padding: 0.5em 0;
       width: 200px;
-      // font-family: "Major Mono Display", monospace;
+      font-family: "Sans-serif";
       color: darkslategray;
 
       &:hover {
